@@ -52,15 +52,24 @@ img{
     color:#000;
 }
 p{
-    font-size: 1.7vw;
-    line-height: 3vw;
-    padding: 0px 30px 0px 30px;
+    font-size: 1vw;
+    line-height: 2vw;
+    padding: 0px .5vw 0px .5vw;
     text-align: justify;
 }
+   
+   
+
+
+  /*  font-size: 1vh;
+    line-height: 3vh;
+    padding: 0px 30px 0px 30px;
+    text-align: justify; */
+
 #abue{
-    font-size: 1.4vw;
+    font-size: 1vw;
     line-height: 2vw;
-    padding: 0px 15px 0px 15px;
+    padding: 0px .5vw 0px .5vw;
     text-align: justify;
 }
 #papa{
@@ -123,13 +132,16 @@ border-color: black;
 }
 .notas{
     display:flex;
-    flex-direction: column;
-    justify-content:flex-start;
+    
+    justify-content:space-around;
     align-items:center;
     padding: 5px;
+  /*  width: 20vw;*/
 }
 #audio-thi{
     padding-bottom: 10px;
+    width: 10vw;
+    height: 5vw;
 }
 
 
